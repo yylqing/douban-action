@@ -15,15 +15,15 @@ jobs:
     - name: movie
       uses: lizheming/doumark-action@master
       with:
-        id: lizheming
+        id: 164528743
         type: movie
         format: csv
         dir: ./data/douban
 
-    - name: music
+    - name: book
       uses: lizheming/doumark-action@master
       with:
-        id: lizheming
+        id: 164528743
         type: music
         format: csv
         dir: ./data/douban
