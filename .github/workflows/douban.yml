@@ -21,7 +21,7 @@ jobs:
         dir: ./data/douban
 
     - name: book
-      uses: lizheming/doumark-action@master
+      uses: yylqing/douban-action@master
       with:
         id: 164528743
         type: music
