@@ -21,10 +21,10 @@ jobs:
         dir: ./data/douban
 
     - name: book
-      uses: yylqing/douban-action@master
+      uses: lizheming/doumark-action@master
       with:
         id: 164528743
-        type: music
+        type: book
         format: csv
         dir: ./data/douban
   
