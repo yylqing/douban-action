@@ -17,7 +17,7 @@ jobs:
       with:
         id: 164528743
         type: movie
-        format: csv
+        format: json
         dir: ./data/douban
 
     - name: book
@@ -25,7 +25,7 @@ jobs:
       with:
         id: 164528743
         type: book
-        format: csv
+        format: json
         dir: ./data/douban
   
     - name: Commit
