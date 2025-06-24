@@ -3,7 +3,7 @@ name: douban
 on: 
   schedule:
       - cron: "00 12 24 * *"
-
+  workflow_dispatch:
 jobs:
   douban:
     name: Douban mark data sync
